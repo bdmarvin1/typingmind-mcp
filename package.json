@@ -1,11 +1,11 @@
 {
-  "name": "@bdmarvin/mcp-oauth-controller",
+  "name": "@bdmarvin/typingmind-mcp",
   "version": "1.1.9",
   "repository": "https://github.com/Bdmarvin1/typingmind-mcp",
-  "description": "OAuth enabled Model Context Protocol (MCP) server runner (forked from TypingMind/typingmind-mcp)",
+  "description": "OAuth enabled Model Context Protocol (MCP) server runner (forked and enhanced by Bdmarvin from TypingMind/typingmind-mcp)",
   "main": "lib/server.js",
   "bin": {
-    "@bdmarvin/mcp-oauth-controller": "./bin/index.js"
+    "@bdmarvin/typingmind-mcp": "./bin/index.js"
   },
   "scripts": {
     "start": "node bin/index.js"
