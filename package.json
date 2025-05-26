@@ -1,11 +1,11 @@
 {
-  "name": "@typingmind/mcp",
-  "version": "1.1.8",
-  "repository": "https://github.com/TypingMind/typingmind-mcp",
-  "description": "Model Context Protocol (MCP) servers runner for TypingMind",
+  "name": "@bdmarvin/typingmind-mcp",
+  "version": "1.1.10",
+  "repository": "https://github.com/Bdmarvin1/typingmind-mcp",
+  "description": "OAuth enabled Model Context Protocol (MCP) server runner (forked and enhanced by Bdmarvin from TypingMind/typingmind-mcp)",
   "main": "lib/server.js",
   "bin": {
-    "@typingmind/mcp": "./bin/index.js"
+    "@bdmarvin/typingmind-mcp": "./bin/index.js"
   },
   "scripts": {
     "start": "node bin/index.js"
@@ -16,15 +16,21 @@
     "model",
     "context",
     "protocol",
-    "typingmind"
+    "typingmind",
+    "oauth",
+    "google auth"
   ],
-  "author": "TypingMind",
+  "author": "Bdmarvin (forked from TypingMind)",
   "license": "MIT",
   "dependencies": {
+    "@google-cloud/secret-manager": "^5.0.1",
     "@modelcontextprotocol/sdk": "^1.9.0",
     "chalk": "^4.1.2",
     "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
     "express": "^4.18.2",
+    "googleapis": "^105.0.0",
+    "jsonwebtoken": "^9.0.2",
     "json-stable-stringify": "^1.2.1"
   },
   "engines": {
