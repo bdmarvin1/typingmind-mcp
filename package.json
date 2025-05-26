@@ -1,6 +1,6 @@
 {
   "name": "@bdmarvin/typingmind-mcp",
-  "version": "1.1.9",
+  "version": "1.1.10",
   "repository": "https://github.com/Bdmarvin1/typingmind-mcp",
   "description": "OAuth enabled Model Context Protocol (MCP) server runner (forked and enhanced by Bdmarvin from TypingMind/typingmind-mcp)",
   "main": "lib/server.js",
