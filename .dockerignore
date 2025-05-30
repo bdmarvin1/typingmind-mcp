@@ -6,3 +6,7 @@ npm-debug.log
 README.md
 Dockerfile
 .dockerignore
+node_modules
+.readlocal-port
+.env
+.npmignore
